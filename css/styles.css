@@ -1,24 +1,37 @@
-p {
-  display: none;
-  font-size: 14px;
+body {
+  background-color: #bad0e0;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Cabin Sketch', serif;
+  font-size: 60px;
+}
+
+.panel {
+  height: 250px;
+  overflow: auto;
+  border: 1px solid black;
+  margin-left: 40px;
+  background-image: url("../img/card.jpg");
+}
 .card {
   border: 1px solid black;
-  width: 50%;
   background-color: lightblue;
-  margin: 5px 0px;
 }
-.card h2 {
-  background-color: #7ba7b5;
-  width: 100%;
-  padding: 3px 0px;
-  text-align: center;
-}
+
 .card p {
  padding: 10px 20px;
 }
-
-h2 {
-  font-size: 20px;
+.panel h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.panel p {
+  display: none;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: 'Shadows Into Light', cursive;
 }
