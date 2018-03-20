@@ -5,7 +5,7 @@ body {
 h1 {
   text-align: center;
   font-family: 'Cabin Sketch', serif;
-  font-size: 60px;
+  font-size: 58px;
 }
 
 .card h2{
@@ -20,8 +20,9 @@ h1 {
 .panel {
   height: 250px;
   overflow: auto;
-  margin-left: 40px;
+  margin-left: 50px;
   background-image: url("../img/card.jpg");
+  background-repeat: no-repeat;
 }
 
 .panel h2 {

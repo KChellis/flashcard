@@ -1,5 +1,5 @@
 $(function(){
-  $("div.col-md-5").click(function(){
+  $("div.col-xs-5").click(function(){
     $("div").removeClass("card");
     $("p").hide();
     $(this).find("p").slideDown();
