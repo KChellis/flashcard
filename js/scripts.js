@@ -1,6 +1,6 @@
 $(function(){
   $("div").click(function(){
-    $("div").removeClass();
+    $("div").removeClass("card");
     $("p").hide();
     $(this).find("p").show();
     $(this).toggleClass("card");
