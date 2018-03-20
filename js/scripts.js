@@ -1,5 +1,6 @@
 $(function(){
-  $("h2").click(function(){
-    $("p").slideToggle();
+  $("div").click(function(){
+    $(this).find("p").toggle();
+    $(this).toggleClass("card");
   });
 });
